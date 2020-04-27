@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: #fff;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -109,11 +110,32 @@ body {
   background-color: lemonchiffon;
 }
 
+header, footer{
+height: 80px;
+width: 100%;
+background-color: white;
+}
+
+main {
+height: 250px;
+width: 100px;
+background-color: white;
+}
+
+header, footer, main {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
 
 }
 
